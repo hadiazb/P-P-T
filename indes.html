@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Practica de JavaScript</title>
+</head>
+<body>
+    <section class="toy">
+        <h3 class="toy__titulo"id="parrafo">Juego piedra-papel-tijera</h3>
+        <label class="toy__instruction">Elige tu opción de juego</label>
+        <select class="toy__option" id="player" name="player">
+            <option value="Papel">Papel</option>
+            <option value="Piedra">Piedra</option>
+            <option value="Tijera">Tiejera</option>
+        </select>
+        <input class="toy__boton" type="submit" onclick="election()">
+        <p id="respuesta"></p>
+    </section>
+
+
+</body>
+<script src="./index.js"></script>
+<script src="./reto.js"></script>
+</html>
